@@ -1,7 +1,0 @@
-organization=budzow-github
-projectKey=ibm_ent_cobol_cli
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.4497
-dashboardUrl=https://sonarcloud.io/dashboard?id=ibm_ent_cobol_cli
-ceTaskId=AXAvC1p7KvK4wtS2zUrc
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXAvC1p7KvK4wtS2zUrc
