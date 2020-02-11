@@ -1,0 +1,17 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. XMLPARSER.
+	   File section.                                                            
+       FD Input-XML                                                             
+           Record is varying from 1 to 255 depending on Rec-length              
+           Recording mode V.                                                    
+       1 xml-document.                                                                 
+         2 pic X occurs 1 to 255.  
+       XML PARSE xml-document PROCESSING
+       PROCEDURE xml-handler
+          ON EXCEPTION
+          DISPLAY 'XML document error '
+       XML-CODE
+       NOT ON EXCEPTION
+       DISPLAY 'XML document successfully parsed’
+       END-XML.
+       END PROGRAM XMLPARSER.
